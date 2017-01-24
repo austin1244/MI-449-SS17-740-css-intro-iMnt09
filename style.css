@@ -1,0 +1,44 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width:80%;
+}
+span{
+  padding-left: 40px;
+  font-size: 18px;
+}
+h1, .tagline {
+  text-align: center;
+}
+h2{
+  padding-bottom:20px;
+  border-bottom:2px solid orange;
+}
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  background: #f2f1ea;
+}
+header{
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background: white; 
+}
+header div {
+  display:table;
+  margin:auto
+}
+section{
+  background:white;
+  padding:40px;
+  width: calc(100% - 80px);
+  margin-top:20px;
+  margin-bottom:20px;
+}
+section img{
+  width:10%;
+  padding: 8px;
+}
