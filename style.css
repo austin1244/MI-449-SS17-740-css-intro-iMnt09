@@ -1,22 +1,30 @@
 .container {
   margin: 0 auto;
-  max-width: 1200px;
-  width:80%;
+  width: 500px;
+  position: relative;
 }
 span{
-  padding-left: 40px;
+  padding-left: 26px;
   font-size: 18px;
 }
 h1, .tagline {
   text-align: center;
+  font-size 27px;
+}
+a{
+  font-size:12px;
+  color:purple;
+}
+a:hover{
+  color:orange;
 }
 h2{
   padding-bottom:20px;
-  border-bottom:2px solid orange;
+  border-bottom:2px solid #d6a674;
 }
 body {
   font-family: 'Open Sans', Arial, sans-serif;
-  background: #f2f1ea;
+  background: #f9f7f5;
 }
 header{
   margin-top:20px;
@@ -33,12 +41,13 @@ header div {
 }
 section{
   background:white;
-  padding:40px;
-  width: calc(100% - 80px);
+  padding:30px; 
+  width: calc(100% - 60px);
   margin-top:20px;
   margin-bottom:20px;
 }
 section img{
-  width:10%;
-  padding: 8px;
+  width: 50px;
+  padding-right: 15px; 
+  padding-bottom: 15px;
 }
