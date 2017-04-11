@@ -5,14 +5,22 @@
 }
 
 span {
-  padding-left: 26px;
-  font-size: 18px;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
-h1,
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
 .tagline {
   text-align: center;
-  font-size: 27px;
+  font-size: 17px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 a {
@@ -27,6 +35,7 @@ a:hover {
 h2 {
   padding-bottom: 20px;
   border-bottom: 2px solid #d6a674;
+  font-weight: normal;
 }
 
 body {
@@ -38,8 +47,8 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 34px;
+  padding-bottom: 34px;
   width: 100%;
   background: white;
 }
